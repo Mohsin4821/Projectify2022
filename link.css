@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,300;1,500&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#bg{
+  left: 0;
+  top: 0;
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./vector-abstract-forest-landscape-546973744');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat ;
+  position: relative;
+}
+  
+.sl{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+  .profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    margin-top: 10%;
+    height: auto;
+    max-width: 100px;
+  
+    border-radius: 50%;
+  }
+  
+  .profile-name {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;;
+    padding: 30px;
+    font-size: 2rem;
+    font-weight: 2rem;
+    color: aliceblue;
+  }
+  
+  .links {
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid aliceblue;
+    border-width: 2px;
+    padding: 20px;
+  
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    border-radius: 40px;
+  
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+  
+    color: aliceblue;
+    transition: color 1s;
+  }
+  
+  a:hover {
+    color: black;
+    background-color: white;
+  }
